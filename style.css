@@ -58,18 +58,18 @@
 /* Responsive Design */
 
 /* For screens 1024px and below (laptops, tablets) */
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     .nithin-sidebar {
-        width: 200px; /* Sidebar width for tablets */
+        width: 100px; /* Sidebar width for tablets */
     }
 
     .nithin-container {
-        margin-left: 200px; /* Adjust container margin accordingly */
+        margin-left: 100px; /* Adjust container margin accordingly */
     }
 }
 
 /* For screens 768px and below (tablets and mobile) */
-@media (max-width: 768px) {
+@media (max-width: 350px) {
     .nithin-sidebar {
         width: 100%; /* Full width for mobile */
         height: auto; /* Adjust height */
@@ -90,7 +90,7 @@
 }
 
 /* For screens 480px and below (very small mobile devices) */
-@media (max-width: 480px) {
+@media (max-width: 200px) {
     .nithin-button, .nithin-Settings {
         padding: 10px; /* Even smaller padding on very small screens */
     }

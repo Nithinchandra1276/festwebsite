@@ -1,0 +1,58 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sidebar Styling */
+.nithin-sidebar {
+    position: fixed;
+    width: 250px; /* Adjust width as needed */
+    height: 100%;
+    background-color: #333; /* Sidebar background color */
+    color: white;
+    padding-top: 20px; /* Adjust if necessary */
+    top: 0;
+    left: 0;
+}
+
+.nithin-container {
+    padding: 10px;
+}
+
+.nithin-wide h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Button Styling */
+.nithin-button, .nithin-Settings {
+    width: 100%;
+    padding: 30px;
+    margin: 5px 0;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nithin-button:hover, .nithin-Settings:hover {
+    background-color: #555;
+}
+
+
+/* Footer Links */
+.nithin-padding a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.nithin-padding a:hover {
+    background-color: #555;
+}
+
+
+

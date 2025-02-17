@@ -1,0 +1,28 @@
+<a>    
+            <button class="nithin-button" title="" target="_blank">
+                <i class="fas fa-search"></i> Search
+            </button>
+        </a>
+        <a>
+            <button class="nithin-button" title="" target="_blank">
+                <i class="fas fa-user"></i> Signin chie bro
+            </button>
+        </a>
+        <a>
+            <button class="nithin-button" title="" target="_blank">
+                <i class="fas fa-sign-out-alt"></i> Log out kotu ra babu
+            </button>
+        </a>
+        <a>
+            <button class="nithin-Settings" title="" target="_blank">
+                <i class="fas fa-cog"></i> Settings
+            </button>
+        </a>
+        <a>
+            <button class="nithin-button" title="" target="_blank">
+                <i class="fas fa-cog"></i> Help & Support
+            </button>
+        </a>
+
+        <div class="nithin-bar-block">
+        </div>

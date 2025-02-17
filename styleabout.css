@@ -1,0 +1,70 @@
+/* Styling for the text container */
+.text-container {
+    position: absolute; /* Position it absolutely within the container */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 25px;
+    width: auto;
+    text-align: left; /* Align the text to the left */
+}
+
+
+.schedule-container {
+    position: absolute; /* This positions the container relative to the nearest positioned ancestor */
+    top: 10px; /* Adjust the top spacing as needed */
+    right: 10px; /* Adjust the right spacing as needed */
+    flex-direction: column;
+    align-items: flex-start; /* Align the items to the left */
+    gap: -10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the schedule */
+    padding: 10px;
+    border-radius: 25px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5); 
+}
+
+
+.nithin-button {
+    text-align: left;
+    margin: 0; /* reset all margins */
+    padding: 10px;
+    border-radius: 25px;
+    position: absolute;
+    top: 21%; /* position in the vertical center */
+    left: 0; /* align to the left */
+    transform: translateY(-50%); /* adjust the vertical position to truly center */
+}
+
+
+.text {
+    position: absolute;
+    top: 23%;
+    left: 0%;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 15px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.text h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.text h3 {
+    font-size: 26px;
+    color: #000000;
+    position: relative;
+    padding-right: 30px;
+}
+
